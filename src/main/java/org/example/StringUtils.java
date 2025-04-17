@@ -48,7 +48,7 @@ public class StringUtils {
         while (start <= end && isWhitespace(str.charAt(start))) {
             start++;
         }
-        if (start > 0) start--;  // 这行是错误注入
+//        if (start > 0) start--;  // 这行是错误注入
         // 找到最后一个非空白字符
         while (end >= start && isWhitespace(str.charAt(end))) {
             end--;
